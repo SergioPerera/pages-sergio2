@@ -2,7 +2,7 @@
 title: "Informe de la práctica 1: configuración de la máquina virtual del IaaS"
 ---
 # Índice
-[Introducción](#introduccion)
+[Introducción](#1.-introducción)
 bla
 blabla
 blabla
