@@ -1,4 +1,5 @@
 ---
 title: "Informe de la práctica 1: configuración de la máquina virtual del IaaS"
 ---
-# Bueno ahora nos reiremos un rato con este formateo a ver que tal sale
+# Introducción
+  En este informe se detallarán los pasos a seguir para llevar a cabo la 1 2 3 4 5 6 7 8 9 0
