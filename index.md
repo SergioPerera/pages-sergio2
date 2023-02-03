@@ -1,7 +1,8 @@
 ---
 title: "Informe de la práctica 1: configuración de la máquina virtual del IaaS"
 ---
-[Custom foo description](#foo)
+# Índice
+[Introducción](# 1. Introducción)
 
 # Foo
 # 1. Introducción
