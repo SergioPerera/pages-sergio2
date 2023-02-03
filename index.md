@@ -3,7 +3,7 @@ title: "Informe de la práctica 1: configuración de la máquina virtual del Iaa
 ---
 # Bueno ahora nos reiremos un rato con este formateo a ver que tal sale
 
-<details>
+<details id=1>
 <summary><h2>Step 1: Enable GitHub Pages</h2></summary>
 
 _Welcome to GitHub Pages and Jekyll :tada:!_
@@ -19,6 +19,6 @@ The first step is to enable GitHub Pages on this [repository](https://docs.githu
    > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
 
 </details>
-quito el details id 2
-
+Puse el details id 2 
+bla bla bla bla bla bla escribo aquí
 <details id=2>
