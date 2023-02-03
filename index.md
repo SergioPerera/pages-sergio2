@@ -19,3 +19,4 @@ The first step is to enable GitHub Pages on this [repository](https://docs.githu
    > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
 
 </details>
+<details id=2>
