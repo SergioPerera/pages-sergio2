@@ -1,4 +1,4 @@
 ---
-title: Práctia 1 Configuración del IaaS
+title: "Práctcia 1: Configuración del IaaS"
 ---
 
