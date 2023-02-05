@@ -19,7 +19,7 @@ A la hora de seguir estos tutoriales me encontré con varios problemas:
 * Las imágenes y los vídeos de este informe no se añadían puesto que están guardados en ``` media/ ```. 
 Para solucionarlo simplemente concreté donde se alojaban con ``` media/images``` o ``` media/videos```
 * Para hacer el índice no me fue posible poner títulos como *1. Introducción*. Intenté poner 
-*1.-introducción* debido a que el formato de los links no lleva espacios ni mayúsculas, pero tampoco funcionó
-. Así que opté por solo poner el título *Introducción*
+*1.-introducción* debido a que el formato de los links no lleva espacios ni mayúsculas, pero tampoco funcionó.
+Así que opté por solo poner el título *Introducción*
 * Quería lograr en el archivo index.md un índice desplegable como el que se puede encontrar en los
 tutoriales concretamente en el README.MD
