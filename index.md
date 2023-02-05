@@ -2,9 +2,9 @@
 title: "Informe de la práctica 1: configuración de la máquina virtual del IaaS"
 ---
 # Índice
-[Introducción](#introducción)
+*[Introducción](#introducción)
 
-[Conexión y configuración de la máquina virtual](#conexión-y-configuración-de-la-máquina-virtual)
+*[Conexión y configuración de la máquina virtual](#conexión-y-configuración-de-la-máquina-virtual)
     *[Tomar la máquina virtual del pool y SSH](#Tomar-la-máquina-virtual-del-pool-y-SSH)
 
 # Introducción
