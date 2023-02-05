@@ -30,7 +30,7 @@ Pero esto me fue imposible. Por lo visto *Jekyll* no acepta el formato *Markdown
 etiquetas de *HTML* como ``` <details>```.
 # Conexión y configuración de la máquina virtual
 Ahora procederemos a detallar los pasos seguidos para poder conectar y configurar la máquina virtual
-## Tomar la máquina virtual del pool y SSH
+### Tomar la máquina virtual del pool y SSH
 Lo primero es tener instalada la VPN *Global Protect* para conectarse a la VPN de la ULL. Una vez conectados
 accedemos a [iaas.ull.es](iaas.ull.es), introducimos nuestras credenciales y tomamos una máquina virtual del
 pool. Cuando la máquina esté operativa tomamos su IP, luego accedemos a la *Consola VNC* e introducimos ``` usuario ```
