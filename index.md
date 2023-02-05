@@ -25,6 +25,6 @@ Para solucionarlo simplemente concreté donde se alojaban con ``` media/images``
 Así que opté por solo poner el título *Introducción*
 * Quería lograr en el archivo index.md un índice desplegable como el que se puede encontrar en los tutoriales, 
 concretamente, en el README.MD.
-[Despliegue de pasos](media/videos/Despliegue%20de%20pasos.gif)
+[Despliegue de pasos](media/videos/Despliegue_de_pasos.gif)
 Pero esto me fue imposible. Por lo visto Jekyll no acepta el formato Markdown si se encuentra dentro de algunas
 etiquetas de HTML como "<details>"
