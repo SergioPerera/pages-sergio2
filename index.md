@@ -38,6 +38,8 @@ y ``` usuario ``` como nombre y contraseña.
 
 Al entrar en [iaas.ull.es](iaas.ull.es) no tuve ningún problema la primera vez, cogí la MV y su IP. El
 problema surge la segunda vez que intenté conectarme, ya que la página estaba caída. Desde *Visual Studio Code* 
-pretendí hacer un *SHH* pero al no haberme registrado con ``` usuario ``` y ``` usuario ``` como nombre y contraseña 
-no me dejaba hacer *SSH*
+pretendí hacer un *SHH* pero al no haberme registrado con ``` usuario ``` y ``` usuario ``` y puesto una nueva 
+contraseña no me dejaba hacer *SSH*
 ![Fallo ssh](media/images/fallossh.bmp)
+Como podemos ver en la imagen conecta correctamente, pero a la hora de solicitar el cambio de contraseña se 
+pueden apreciar los errores
