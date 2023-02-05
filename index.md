@@ -34,4 +34,9 @@ Ahora procederemos a detallar los pasos seguidos para poder conectar y configura
 Lo primero es tener instalada la VPN *Global Protect* para conectarse a la VPN de la ULL. Una vez conectados
 accedemos a [iaas.ull.es](iaas.ull.es), introducimos nuestras credenciales y tomamos una máquina virtual del
 pool. Cuando la máquina esté operativa tomamos su IP, luego accedemos a la *Consola VNC* e introducimos ``` usuario ```
-y ``` usuario ``` como nombre y contraseña
+y ``` usuario ``` como nombre y contraseña.
+
+Al entrar en [iaas.ull.es](iaas.ull.es) no tuve ningún problema la primera vez, cogí la MV y su IP. El
+problema surge la segunda vez que intenté conectarme, ya que la página estaba caída. Desde *Visual Studio Code* 
+pretendí hacer un *SHH* pero al no haberme registrado con ``` usuario ``` y ``` usuario ``` como nombre y contraseña 
+no me dejaba hacer *SSH*
