@@ -16,6 +16,8 @@ seguí los tutoriales facilitados por el profesorado:
 * [GitHub Pages](https://github.com/skills/github-pages)
 
 A la hora de seguir estos tutoriales me encontré con varios problemas:
-* Las imágenes y los vídeos no se añadían puesto que están guardados en ``` media/ ```
+* Las imágenes y los vídeos no se añadían puesto que están guardados en ``` media/ ```. Para solucionarlo 
+simplemente concreté donde se alojaban con ``` media/images``` o ``` media/videos```
+* Para hacer el índice no me fue posible poner títulos como *1. Introducción*
 * Quería lograr en el archivo index.md un índice desplegable como el que se puede encontrar en los
 tutoriales concretamente en el README.MD
