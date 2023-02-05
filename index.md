@@ -26,9 +26,9 @@ Así que opté por solo poner el título *Introducción*.
 * Quería lograr en el archivo ```index.md``` un índice desplegable como el que se puede encontrar en los tutoriales, 
 concretamente, en el *README.MD*.
 ![Despliegue de pasos](media/videos/Despliegue_de_pasos.gif)
-
 Pero esto me fue imposible. Por lo visto *Jekyll* no acepta el formato *Markdown* si se encuentra dentro de algunas
 etiquetas de *HTML* como ``` <details>```.
+
 # Conexión y configuración de la máquina virtual
 Ahora procederemos a detallar los pasos seguidos para poder conectar y configurar la máquina virtual
 ### Tomar la máquina virtual del pool y SSH
