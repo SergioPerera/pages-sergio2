@@ -9,7 +9,7 @@ En este informe se detallarán los pasos a seguir para llevar a cabo la configur
 máquina virtual de la asignatura.
 
 # Pasos previos 
-Para realizar esta práctica es necesario tener conocimientos básicos de GitHub Skills y Jekyll. Para ello 
+Para realizar esta práctica es necesario tener conocimientos básicos de *GitHub Skills* y *Jekyll*. Para ello 
 seguí los tutoriales facilitados por el profesorado:
 * [Introduction to GitHub](https://github.com/skills/introduction-to-github)
 * [Communicate using Markdown](https://github.com/skills/communicate-using-markdown)
@@ -28,3 +28,10 @@ concretamente, en el *README.MD*.
 ![Despliegue de pasos](media/videos/Despliegue_de_pasos.gif)
 Pero esto me fue imposible. Por lo visto *Jekyll* no acepta el formato *Markdown* si se encuentra dentro de algunas
 etiquetas de *HTML* como ``` <details>```.
+# Conexión y configuración de la máquina virtual
+Ahora procederemos a detallar los pasos seguidos para poder conectar y configurar la máquina virtual
+## Tomar la máquina virtual del pool y SSH
+Lo primero es tener instalada la VPN *Global Protect* para conectarse a la VPN de la ULL. Una vez conectados
+accedemos a [iaas.ull.es](iaas.ull.es), introducimos nuestras credenciales y tomamos una máquina virtual del
+pool. Cuando la máquina esté operativa tomamos su IP, luego accedemos a la *Consola VNC* e introducimos ``` usuario ```
+y ``` usuario ``` como nombre y contraseña
