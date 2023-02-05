@@ -14,3 +14,8 @@ seguí los tutoriales facilitados por el profesorado:
 ⋅⋅* [Introduction to GitHub](https://github.com/skills/introduction-to-github)
 ⋅⋅* [Communicate using Markdown](https://github.com/skills/communicate-using-markdown)
 ⋅⋅* [GitHub Pages](https://github.com/skills/github-pages)
+
+A la hora de seguir estos tutoriales me encontré con varios problemas:
+⋅⋅* Las imágenes y los vídeos no se añadían puesto que están guardados en ``` media/ ```
+⋅⋅* Quería lograr en el archivo index.md un índice desplegable como el que se puede encontrar en los
+tutoriales concretamente en el README.MD
