@@ -5,7 +5,7 @@ title: "Informe de la práctica 1: configuración de la máquina virtual del Iaa
 [Introducción](#introducción)
 
 [Conexión y configuración de la máquina virtual](#conexión-y-configuración-de-la-máquina-virtual)
-
+    *[Tomar la máquina virtual del pool y SSH](#Tomar-la-máquina-virtual-del-pool-y-SSH)
 
 # Introducción
 En este informe se detallarán los pasos a seguir para llevar a cabo la configuración e instalación de la 
