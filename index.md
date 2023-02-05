@@ -46,4 +46,4 @@ pretendí hacer un *SHH* pero al no haberme registrado con ``` usuario ``` y ```
 contraseña no me dejaba hacer *SSH*
 ![Fallo ssh](media/images/fallossh.bmp)
 Como podemos ver en la imagen conecta correctamente, pero a la hora de solicitar el cambio de contraseña se 
-pueden apreciar los errores.
+pueden apreciar los errores, sobretodo el error ```Resolver error: failed```.
