@@ -125,6 +125,29 @@ Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.4.0-137-generic x86_64)
 usuario@dsi2223:~$
 ```
 
+También podemos reducir ```ssh usuario@DSI ``` a ```ssh dsi ```. Como configuramos anteriormente el
+archivo ``` .../config``` en *VSC* se habrá puesto automáticamente como:
+```
+Host DSI
+  HostName 10.6.131.207
+  User usuario
+```
+
+Pero si lo queremos cambiar manualmente añadimos debajo, hacemos ```Win+r``` ponemos:
+
+![pestawinr](/media/images/pestawindir.bmp)
+
+Y modificamos el archivo ```config```
+```
+Host DSI
+  HostName 10.6.131.207
+  User usuario
+Host dsi
+  HostName 10.6.131.207
+  User usuario
+```
+
+
 # Creación de clave pública-privada
 Estando en la **máquina local**, en mi caso *Windows* abrimos la *PowerShell*. 
 Escribimos ```ssh-keygen``` y se generará una clave, esta la tendremos que copiar
