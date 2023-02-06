@@ -66,7 +66,7 @@ hacerlo nos debería aparecer lo siguiente:
 ubuntu
 ~                                                                                                                                                                                                        
 ~                                
-                                                                                                                                                                                       1,5           All
+1,5           All
 ```
 Simplemente le damos a la tecla i y pasamos a modo insertar, una vez cambié el nombre por ```dsi2223```. De 
 esta manera el archivo queda de la siguiente manera:
