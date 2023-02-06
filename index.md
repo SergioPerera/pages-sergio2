@@ -108,9 +108,9 @@ y lo guardamos
 PS C:\Users\sergi> ssh usuario@DSI
 usuario@10.6.131.207's password:
 Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.4.0-137-generic x86_64)
- * Documentation:  https://help.ubuntu.com
- * Management:     https://landscape.canonical.com
- * Support:        https://ubuntu.com/advantage
+ \* Documentation:  https://help.ubuntu.com
+ \* Management:     https://landscape.canonical.com
+ \* Support:        https://ubuntu.com/advantage
   System information as of Mon Feb  6 10:37:21 UTC 2023  
   .
   .
