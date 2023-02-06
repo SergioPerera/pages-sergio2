@@ -47,3 +47,4 @@ contraseña no me dejaba hacer *SSH*
 ![Fallo ssh](media/images/fallossh.bmp)
 Como podemos ver en la imagen conecta correctamente, pero a la hora de solicitar el cambio de contraseña se 
 pueden apreciar los errores, sobretodo el error ```[19:29:24.435] Resolver error: failed```.
+Una vez arreglado el acceso a la página ya pude entrar y hacer un SSH desde *Visual Studio Code* desde la extensión oficial [Remote-SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) poniendo ```ssh usuario@10.6.131.207```
