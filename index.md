@@ -124,6 +124,7 @@ Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.4.0-137-generic x86_64)
   .
 usuario@dsi2223:~$
 ```
+
 # Creación de clave pública-privada
 Estando en la **máquina local**, en mi caso *Windows* abrimos la *PowerShell*. 
 Escribimos ```ssh-keygen``` y se generará una clave, esta la tendremos que copiar
