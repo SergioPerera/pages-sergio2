@@ -268,4 +268,17 @@ poniendo ``` [\033[0;0m\] '``` para poder escribir en la terminal con un espacio
 color blanco
 
 ### Comprobación del prompt
-Para saber que este prompt nos muestra lo que deseamos vamos a seguir los pasos de GitHub para [clonar un repositorio mediante SSH](https://docs.github.com/es/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+Para saber que este prompt nos muestra lo que deseamos vamos a seguir los pasos de GitHub para [añadir nueva clave SSH a GitHub](https://docs.github.com/es/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
+Al terminar los pasos clonamos un repositorio, en mi caso el de la tarea, en nuestra máquina virtual, en el directorio deseado:
+```bash
+[~/dsi/pr1_configuracion_iaas()]$ git clone git@github.com:ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct01-iaas-SergioPerera.git
+Cloning into 'ull-esit-inf-dsi-22-23-prct01-iaas-SergioPerera'...
+warning: You appear to have cloned an empty repository.
+[~/dsi/pr1_configuracion_iaas()]$ ll
+total 12
+drwxrwxr-x 3 usuario usuario 4096 Feb  6 18:05 ./
+drwxrwxr-x 3 usuario usuario 4096 Feb  6 08:26 ../
+drwxrwxr-x 3 usuario usuario 4096 Feb  6 18:05 ull-esit-inf-dsi-22-23-prct01-iaas-SergioPerera/
+[~/dsi/pr1_configuracion_iaas()]$ cd ull-esit-inf-dsi-22-23-prct01-iaas-SergioPerera/
+[~/dsi/pr1_configuracion_iaas/ull-esit-inf-dsi-22-23-prct01-iaas-SergioPerera(master)]$
+```
