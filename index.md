@@ -203,5 +203,5 @@ The key's randomart image is:
 |+=+& =o o . o.   |
 |.=B*B .. . ...   |
 +----[SHA256]-----+
-usuario@dsi2223:~$ 
+usuario@dsi2223:~$ ssh-copy-id usuario@máquina_local
 ```
