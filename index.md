@@ -50,10 +50,13 @@ pueden apreciar los errores, sobretodo el error ```[19:29:24.435] Resolver error
 Una vez arreglado el acceso a la página ya pude entrar y hacer un SSH desde *Visual Studio Code* desde la extensión oficial [Remote-SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) poniendo ```ssh usuario@10.6.131.207```
 
 ## Modificación del nombre de la MV y actualización
-Como podemos ver en el prompt: ```usuario@ubuntu:~$``` tenemos como nombre de la máquina ubuntu. Procederemos a cambiarlo mediante los siguientes pasos:
+Como podemos ver en el prompt: ```usuario@ubuntu:~$``` tenemos como nombre de la máquina ubuntu. 
+Dentro del archivo ```hostname``` alojado en ```/etc/hostname``` está especificado el nombre del host, por lo tanto
+procederemos a cambiarlo mediante los siguientes pasos:
 * 
 ```
 usuario@ubuntu:~$ cat /etc/hostname
 ubuntu
 ```
-Con este comando comprobamos dentro del archivo ```hostname``` que el nombre es *ubuntu* como mencionamos anteriormente
+Con este comando comprobamos dentro del archivo ```hostname``` que el nombre es *ubuntu* como mencionamos anteriormente.
+ Acto seguido hacemos uso del comando ```sudo vi /etc/hostname``` para editar el fichero
