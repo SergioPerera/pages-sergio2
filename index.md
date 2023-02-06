@@ -234,4 +234,6 @@ user.name=SergioPerera
 user.email=alu0101394503@ull.edu.es
 usuario@dsi2223:~$ 
 ```
+## Configuración del prompt
+
 
