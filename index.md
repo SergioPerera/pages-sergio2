@@ -28,6 +28,7 @@ Para solucionarlo simplemente concreté donde se alojaban con ``` media/images``
 Así que opté por solo poner el título *Introducción*.
 * Quería lograr en el archivo ```index.md``` un índice desplegable como el que se puede encontrar en los tutoriales, 
 concretamente, en el *README.MD*.
+
 ![Despliegue de pasos](media/videos/Despliegue_de_pasos.gif)
 Pero esto me fue imposible. Por lo visto *Jekyll* no acepta el formato *Markdown* si se encuentra dentro de algunas
 etiquetas de *HTML* como ``` <details>```.
@@ -78,31 +79,17 @@ dsi2223
 ```
 Para guardar el archivo pulsamos la tecla ```esc```, escribimos ```:wq``` y pulsamos enter
 
-## Modificación del nombre de host
-Para ver el nombre actual de host, podemos mirar el prompt ```usuario@ubuntu:~$``` y ver que tenemos el nombre 
-de host ```ubuntu```
-
-O bien con el comando:
-* 
-```
-usuario@ubuntu:~$ cat /etc/hosts
-127.0.0.1 localhost
-127.0.1.1 ubuntu
-```
-
-Podemos ver en la línea ```127.0.1.1 ubuntu``` el nombre, este lo cambiamos mediante ```sudo vi /etc/hosts``` 
-del actual a ``` phoenix```
-* 
-```
-usuario@ubuntu:~$ cat /etc/hosts
-127.0.0.1 localhost
-127.0.1.1 phoenix
-```
-Una vez realizados estos cambios tenemos que reiniciar, mediante ``` sudo reboot``` para que se 
-implementen
-Una vez que la máquina de reinicie tendremos que editar el archivo de *VSC* que se encarga de hacer el
+## Modificación del nombre de host en máquina local
+Ya cuando la máquina se reinicie tendremos que editar el archivo de *VSC* que se encarga de hacer el
 SSH. Para esto, tenemos que conectarnos dando click a la extensión y, en vez de seleccionar la IP de la máquina,
 seleccionamos ```Configure SSH Hosts...``` 
 [visual hosts](/media/images/visual_hosts.bmp)
 Una vez dentro le damos click al archivo ```.../config``` y debería aparecer lo siguiente:
+```
+Host 10.6.131.207
+  HostName 10.6.131.207
+  User usuario
+```
+Simplemente tenemos que cambiar donde pone ``` Host 10.6.131.207``` por ``` Host DSI ``` y lo guardamos
 
+En caso de que queramos hacerlo mediante la terminal, en mi caso la de windows
