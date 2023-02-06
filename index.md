@@ -83,7 +83,7 @@ Para guardar el archivo pulsamos la tecla ```esc```, escribimos ```:wq``` y puls
 Ya cuando la máquina se reinicie tendremos que editar el archivo de *VSC* que se encarga de hacer el
 SSH. Para esto, tenemos que conectarnos dando click a la extensión y, en vez de seleccionar la IP de la máquina,
 seleccionamos ```Configure SSH Hosts...``` 
-[visual hosts](/media/images/visual_hosts.bmp)
+![visual hosts](/media/images/visual_hosts.bmp)
 Una vez dentro le damos click al archivo ```.../config``` y debería aparecer lo siguiente:
 ```
 Host 10.6.131.207
@@ -92,4 +92,5 @@ Host 10.6.131.207
 ```
 Simplemente tenemos que cambiar donde pone ``` Host 10.6.131.207``` por ``` Host DSI ``` y lo guardamos
 
-En caso de que queramos hacerlo mediante la terminal, en mi caso la de windows
+En caso de que queramos hacerlo mediante la terminal, en mi caso la de windows tenemos que seguir los siguientes pasos:
+
