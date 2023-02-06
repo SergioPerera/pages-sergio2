@@ -51,6 +51,7 @@ Una vez arreglado el acceso a la página ya pude entrar y hacer un SSH desde *Vi
 
 ## Modificación del nombre de la MV y actualización
 Como podemos ver en el prompt: ```usuario@ubuntu:~$``` tenemos como nombre de la máquina ubuntu. Procederemos a cambiarlo mediante los siguientes pasos:
+* 
 ```
 usuario@ubuntu:~$ cat /etc/hostname
 ubuntu
