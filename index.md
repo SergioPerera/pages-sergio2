@@ -91,4 +91,5 @@ usuario@ubuntu:~$ cat /etc/hosts
 
 ```
 
-Podemos ver en la línea ```127.0.1.1 ubuntu```
+Podemos ver en la línea ```127.0.1.1 ubuntu``` el nombre, este lo cambiamos mediante ```sudo vi /etc/hosts``` 
+del actual a ``` phoenix```
