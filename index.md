@@ -58,5 +58,6 @@ procederemos a cambiarlo mediante los siguientes pasos:
 usuario@ubuntu:~$ cat /etc/hostname
 ubuntu
 ```
+
 Con este comando comprobamos dentro del archivo ```hostname``` que el nombre es *ubuntu* como mencionamos anteriormente.
  Acto seguido hacemos uso del comando ```sudo vi /etc/hostname``` para editar el fichero
