@@ -239,7 +239,7 @@ user.name=SergioPerera
 user.email=alu0101394503@ull.edu.es
 usuario@dsi2223:~$ 
 ```
-## Configuración del prompt
+### Configuración del prompt de git
 Para ello vamos a descargar un repositorio de github y luego modificar el archivo ```.bashrc```. Tenemos que hacer lo siguiente:
 ```bash
 usuario@dsi2223:~$ wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
@@ -266,3 +266,6 @@ y ya nos debería aparecer el nuevo prompt ```[~()]$ ```. He hecho una pequeña 
 poniendo ``` [\033[0;0m\] '``` para poder escribir en la terminal con un espacio de separación y en 
 color blanco
 
+### Comprobación del prompt
+Para saber que este prompt nos muestra lo que deseamos vamos a seguir los pasos de GitHub para [clonar un
+repositorio mediante SSH](https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
