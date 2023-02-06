@@ -268,5 +268,4 @@ poniendo ``` [\033[0;0m\] '``` para poder escribir en la terminal con un espacio
 color blanco
 
 ### Comprobación del prompt
-Para saber que este prompt nos muestra lo que deseamos vamos a seguir los pasos de GitHub para [clonar un
-repositorio mediante SSH](https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+Para saber que este prompt nos muestra lo que deseamos vamos a seguir los pasos de GitHub para [clonar un repositorio mediante SSH](https://docs.github.com/es/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
