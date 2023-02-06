@@ -81,8 +81,8 @@ dsi2223
 "/etc/hostname" 1L, 8C                                                                                                                                                                 1,7           All
 ```
 Para guardar el archivo pulsamos la tecla ```esc```, escribimos ```:wq``` y pulsamos enter.
-Una vez realizado esto procedemos a hacer ``` sudo reboot``` y la actualizamos con ```usuario@dsi2223:~$ sudo apt update``` 
-y ```usuario@dsi2223:~$ sudo apt upgrade``` y reiniciamos otra vez con ``` sudo reboot```
+Una vez realizado esto procedemos a hacer ```usuario@dsi2223:~$ sudo reboot``` y la actualizamos con ```usuario@dsi2223:~$ sudo apt update``` 
+y ```usuario@dsi2223:~$ sudo apt upgrade``` y reiniciamos otra vez con ```usuario@dsi2223:~$ sudo reboot```
 
 ## Modificación del nombre de host en máquina local
 Ya cuando la máquina se reinicie tendremos que editar el archivo de *VSC* que se encarga de hacer el
