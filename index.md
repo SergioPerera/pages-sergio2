@@ -241,10 +241,26 @@ usuario@dsi2223:~$
 ```
 ## Configuración del prompt
 Para ello vamos a descargar un repositorio de github y luego modificar el archivo ```.bashrc```. Tenemos que hacer lo siguiente:
-```
+```bash
 usuario@dsi2223:~$ wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
 usuario@dsi2223:~$ mv git-prompt.sh .git-prompt.sh
 usuario@dsi2223:~$ vi .bashrc
-usuario@dsi2223:~$ tail .bashrc
+.
+.
+.
+# enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+# sources /etc/bash.bashrc).
+if ! shopt -oq posix; then
+  if [ -f /usr/share/bash-completion/bash_completion ]; then
+    . /usr/share/bash-completion/bash_completion
+  elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+  fi
+fi
+source ~/.git-prompt.sh
+PS1='\[\033]0;\u@\h:\w\007\]\[\033[0;34m\][\[\033[0;31m\]\w\[\033[0;32m\]($(git branch 2>/dev/null | sed -n "s/\* \(.*\)/\1/p"))\[\033[0;34m\]]$'
 ```
+Al final del archivo colocamos las 2 últimas líneas que aparecen encima, acto seguido hacemos ```exec bash -l```
+y ya nos debería aparecer el nuevo prompt ```[~()]$```
 
