@@ -103,6 +103,7 @@ Si lo queremos hacer vía terminal, en mi caso PowerShell, tendríamos que segui
 y lo guardamos
 
 * Cuando queramos hacer SSH por terminal, hacemos:
+
 ```
 PS C:\Users\sergi> ssh usuario@DSI
 usuario@10.6.131.207's password:
