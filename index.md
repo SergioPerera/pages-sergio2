@@ -84,7 +84,7 @@ Para guardar el archivo pulsamos la tecla ```esc```, escribimos ```:wq``` y puls
 Una vez realizado esto procedemos a hacer ```usuario@dsi2223:~$ sudo reboot``` y la actualizamos con ```usuario@dsi2223:~$ sudo apt update``` 
 y ```usuario@dsi2223:~$ sudo apt upgrade``` y reiniciamos otra vez con ```usuario@dsi2223:~$ sudo reboot```
 
-## Modificación del nombre de host en máquina local
+# Modificación del nombre de host en máquina local
 Ya cuando la máquina se reinicie tendremos que editar el archivo de *VSC* que se encarga de hacer el
 SSH. Para esto, tenemos que conectarnos dando click a la extensión y, en vez de seleccionar la IP de la máquina,
 seleccionamos ```Configure SSH Hosts...``` 
@@ -124,5 +124,6 @@ Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.4.0-137-generic x86_64)
   .
 usuario@dsi2223:~$
 ```
-
+# Creación de clave pública-privada
+Estando en la **máquina local**, en mi caso windows tenemos 
 
