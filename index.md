@@ -136,3 +136,5 @@ usuario@dsi2223:~$ chmod 700 .ssh/
 usuario@dsi2223:~$ touch .ssh/authorized_keys
 ```
 
+Cuando nos conectemos a la MV haciendo ``` ssh usuario@dsi``` 
+
