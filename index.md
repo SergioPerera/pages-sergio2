@@ -81,8 +81,13 @@ Para guardar el archivo pulsamos la tecla ```esc```, escribimos ```:wq``` y puls
 ## Modificación del nombre de host
 Para ver el nombre actual de host, podemos mirar el prompt ```usuario@ubuntu:~$``` y ver que tenemos el nombre 
 de host ```ubuntu```
-Ahora mediante el comando:
+O bien con el comando:
 * 
 ```
+usuario@ubuntu:~$ cat /etc/hosts
+127.0.0.1 localhost
+127.0.1.1 ubuntu
 
 ```
+
+Podemos ver en la línea ```127.0.1.1 ubuntu```
