@@ -94,3 +94,4 @@ Simplemente tenemos que cambiar donde pone ``` Host 10.6.131.207``` por ``` Host
 
 En caso de que queramos hacerlo mediante la terminal, en mi caso la de windows tenemos que seguir los siguientes pasos:
 
+
