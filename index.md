@@ -152,7 +152,7 @@ Host dsi
 Estando en la **máquina local**, en mi caso *Windows* abrimos la *PowerShell*. 
 Escribimos ```ssh-keygen``` y se generará una clave, esta la tendremos que copiar
 en la máquina virtual, con el siguiente comando en la **máquina local**: ```type $env:USERPROFILE\.ssh\id_rsa.pub | ssh usuario@dsi "cat >> .ssh/authorized_keys" ``` y presionamos enter. Ahora puede suceder algo muy común y es que salga un error de que 
-no existe ``` .ssh/authorized_keys```. Lo solucioné, estando en la **máquina virtual**  con 
+no existe ``` .ssh/authorized_keys```. Lo solucioné, estando en la **máquina virtual**  con:
 ```
 usuario@dsi2223:~$ mkdir .ssh/
 usuario@dsi2223:~$ chmod 700 .ssh/
@@ -174,5 +174,29 @@ usuario@dsi2223:~$
 ```
 
 Con esto ya tendríamos la parte de la **máquina local** configurada. A continuación
-pasamos a configurar la parte de la **máquina virtual**
+pasamos a configurar la parte de la **máquina virtual**:
 
+```bash
+usuario@dsi2223:~$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/usuario/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/usuario/.ssh/id_rsa
+Your public key has been saved in /home/usuario/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:xCAjegk/IzLjyz7kbZzmh+GKJ+XvsmR8TrwcP9x5l1s usuario@dsi2223
+The key's randomart image is:
++---[RSA 3072]----+
+|. . o .          |
+| + o o o         |
+|* *     o        |
+|o= o   .         |
+| .      S        |
+|.ooo             |
+|o=B O. . .   .E  |
+|+=+& =o o . o.   |
+|.=B*B .. . ...   |
++----[SHA256]-----+
+usuario@dsi2223:~$ 
+```
