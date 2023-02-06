@@ -6,7 +6,10 @@ title: "Informe de la práctica 1: configuración de la máquina virtual del Iaa
 
 [Conexión y configuración de la máquina virtual](#conexión-y-configuración-de-la-máquina-virtual)
   * [Tomar la máquina virtual del pool y SSH](#tomar-la-máquina-virtual-del-pool-y-ssh)
-  * [Modificación del nombre del host, la MV y actualización de la misma](#modificación-del-nombre-del-host-la-mv-y-actualización-de-la-misma)
+  * [Modificación del nombre del host, la MV y actualización de la misma](#modificación-del-nombre-de-la-mv-y-actualización-de-la-misma)
+
+[Modificación del nombre de host en máquina local](modificación-del-nombre-de-host-en-máquina-local)
+
 # Introducción
 En este informe se detallarán los pasos a seguir para llevar a cabo la configuración e instalación de la 
 máquina virtual de la asignatura.
@@ -50,7 +53,7 @@ Como podemos ver en la imagen conecta correctamente, pero a la hora de solicitar
 pueden apreciar los errores, sobretodo el error ```[19:29:24.435] Resolver error: failed```.
 Una vez arreglado el acceso a la página ya pude entrar y hacer un SSH desde *Visual Studio Code* desde la extensión oficial [Remote-SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) poniendo ```ssh usuario@10.6.131.207```
 
-## Modificación del nombre del host, la MV y actualización de la misma
+## Modificación del nombre de la MV y actualización de la misma
 Como podemos ver en el prompt: ```usuario@ubuntu:~$``` tenemos como nombre de la máquina ubuntu. 
 Dentro del archivo ```hostname``` alojado en ```/etc/hostname``` está especificado el nombre del host, por lo tanto
 procederemos a cambiarlo mediante los siguientes pasos:
@@ -77,7 +80,8 @@ dsi2223
 ~                                                                                                                                                                                         
 "/etc/hostname" 1L, 8C                                                                                                                                                                 1,7           All
 ```
-Para guardar el archivo pulsamos la tecla ```esc```, escribimos ```:wq``` y pulsamos enter
+Para guardar el archivo pulsamos la tecla ```esc```, escribimos ```:wq``` y pulsamos enter.
+Una vez realizado esto procedemos a hacer ``` sudo reboot```
 
 ## Modificación del nombre de host en máquina local
 Ya cuando la máquina se reinicie tendremos que editar el archivo de *VSC* que se encarga de hacer el
