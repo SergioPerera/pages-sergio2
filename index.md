@@ -205,3 +205,33 @@ The key's randomart image is:
 +----[SHA256]-----+
 usuario@dsi2223:~$ ssh-copy-id usuario@máquina_local
 ```
+
+# Instalación de git y Node.js
+## Instalación y configuración de git
+### Instalación
+Procedemos a instalar de la siguiente manera:
+```bash
+usuario@dsi2223:~$ sudo apt install git
+[sudo] password for usuario: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+git is already the newest version (1:2.25.1-1ubuntu3.8).
+git set to manually installed.
+The following packages were automatically installed and are no longer required:
+  libfwupdplugin1 libxmlb1
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+usuario@dsi2223:~$ 
+```
+### Configuración
+Tendremos que configurar nuestras credenciales en git, por lo tanto:
+```bash
+usuario@dsi2223:~$ git config --global user.name "SergioPerera"
+usuario@dsi2223:~$ git config --global user.email alu0101394503@ull.edu.es
+usuario@dsi2223:~$ git config --list
+user.name=SergioPerera
+user.email=alu0101394503@ull.edu.es
+usuario@dsi2223:~$ 
+```
+
