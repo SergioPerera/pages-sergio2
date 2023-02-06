@@ -8,7 +8,10 @@ title: "Informe de la práctica 1: configuración de la máquina virtual del Iaa
   * [Tomar la máquina virtual del pool y SSH](#tomar-la-máquina-virtual-del-pool-y-ssh)
   * [Modificación del nombre del host, la MV y actualización de la misma](#modificación-del-nombre-de-la-mv-y-actualización-de-la-misma)
 
-[Modificación del nombre de host en máquina local](modificación-del-nombre-de-host-en-máquina-local)
+[Modificación del nombre de host en máquina local](#modificación-del-nombre-de-host-en-máquina-local)
+ * [Máquina local](#máquina-local)
+ * [Máquina virtual](#máquina-virtual)
+[Creación de clave pública-privada](#creación-de-clave-pública-privada)
 
 # Introducción
 En este informe se detallarán los pasos a seguir para llevar a cabo la configuración e instalación de la 
@@ -149,6 +152,7 @@ Host dsi
 
 
 # Creación de clave pública-privada
+## Máquina local
 Estando en la **máquina local**, en mi caso *Windows* abrimos la *PowerShell*. 
 Escribimos ```ssh-keygen``` y se generará una clave, esta la tendremos que copiar
 en la máquina virtual, con el siguiente comando en la **máquina local**: ```type $env:USERPROFILE\.ssh\id_rsa.pub | ssh usuario@dsi "cat >> .ssh/authorized_keys" ``` y presionamos enter. Ahora puede suceder algo muy común y es que salga un error de que 
@@ -172,8 +176,8 @@ Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.4.0-137-generic x86_64)
   .
 usuario@dsi2223:~$
 ```
-
-Con esto ya tendríamos la parte de la **máquina local** configurada. A continuación
+## Máquina virtual
+Con los pasos anteriores ya tendríamos la parte de la **máquina local** configurada. A continuación
 pasamos a configurar la parte de la **máquina virtual**:
 
 ```bash
