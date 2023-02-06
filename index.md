@@ -127,9 +127,8 @@ usuario@dsi2223:~$
 # Creación de clave pública-privada
 Estando en la **máquina local**, en mi caso *Windows* abrimos la *PowerShell*. 
 Escribimos ```ssh-keygen``` y se generará una clave, esta la tendremos que copiar
-en la máquina virtual, con el siguiente comando: ```type $env:USERPROFILE\.ssh\id_rsa.pub | ssh usuario@dsi "cat >> .ssh/authorized_keys" ```
- y presionamos enter. Ahora puede suceder algo muy común y es que salga un error de que no existe ``` .ssh/authorized_keys```.
- Lo solucionamos con 
+en la máquina virtual, con el siguiente comando en la **máquina local**: ```type $env:USERPROFILE\.ssh\id_rsa.pub | ssh usuario@dsi "cat >> .ssh/authorized_keys" ``` y presionamos enter. Ahora puede suceder algo muy común y es que salga un error de que 
+no existe ``` .ssh/authorized_keys```. Lo solucioné, estando en la **máquina virtual**  con 
 ```
 usuario@dsi2223:~$ mkdir .ssh/
 usuario@dsi2223:~$ chmod 700 .ssh/
