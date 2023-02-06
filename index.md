@@ -135,6 +135,18 @@ usuario@dsi2223:~$ mkdir .ssh/
 usuario@dsi2223:~$ chmod 700 .ssh/
 usuario@dsi2223:~$ touch .ssh/authorized_keys
 ```
-
-Cuando nos conectemos a la MV haciendo ``` ssh usuario@dsi``` 
+Comprobamos que ya no solicita la contraseña
+```
+PS C:\Users\sergi> ssh usuario@DSI
+Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.4.0-137-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Mon Feb  6 10:37:21 UTC 2023  
+  .
+  .
+  .
+  .
+usuario@dsi2223:~$
+```
 
