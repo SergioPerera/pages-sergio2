@@ -6,7 +6,7 @@ title: "Informe de la práctica 1: configuración de la máquina virtual del Iaa
 
 [Conexión y configuración de la máquina virtual](#conexión-y-configuración-de-la-máquina-virtual)
   * [Tomar la máquina virtual del pool y SSH](#tomar-la-máquina-virtual-del-pool-y-ssh)
-  * [Modificación del nombre del host, la MV y actualización de la misma](#modificación-del-nombre-del-host,-la-mv-y-actualización-de-la-misma)
+  * [Modificación del nombre del host, la MV y actualización de la misma](#modificación-del-nombre-del-host-la-mv-y-actualización-de-la-misma)
 # Introducción
 En este informe se detallarán los pasos a seguir para llevar a cabo la configuración e instalación de la 
 máquina virtual de la asignatura.
@@ -77,3 +77,12 @@ dsi2223
 "/etc/hostname" 1L, 8C                                                                                                                                                                 1,7           All
 ```
 Para guardar el archivo pulsamos la tecla ```esc```, escribimos ```:wq``` y pulsamos enter
+
+## Modificación del nombre de host
+Para ver el nombre actual de host, podemos mirar el prompt ```usuario@ubuntu:~$``` y ver que tenemos el nombre 
+de host ```ubuntu```
+Ahora mediante el comando:
+* 
+```
+
+```
