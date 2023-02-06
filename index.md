@@ -98,3 +98,11 @@ usuario@ubuntu:~$ cat /etc/hosts
 127.0.0.1 localhost
 127.0.1.1 phoenix
 ```
+Una vez realizados estos cambios tenemos que reiniciar, mediante ``` sudo reboot``` para que se 
+implementen
+Una vez que la máquina de reinicie tendremos que editar el archivo de *VSC* que se encarga de hacer el
+SSH. Para esto, tenemos que conectarnos dando click a la extensión y, en vez de seleccionar la IP de la máquina,
+seleccionamos ```Configure SSH Hosts...``` 
+[visual hosts](/media/images/visual_hosts.bmp)
+Una vez dentro le damos click al archivo ```.../config``` y debería aparecer lo siguiente:
+
