@@ -14,6 +14,11 @@ title: "Informe de la práctica 1: configuración de la máquina virtual del Iaa
  * [Máquina local](#máquina-local)
  * [Máquina virtual](#máquina-virtual)
 
+[Instalación de git y Node.js](#instalación-de-git-y-node.js)
+ * [Instalación y configuración de git](#instalación-y-configuración-de-git)
+ ** [Instalación](#instalación)
+ ** [Configuración](#configuración)
+
 # Introducción
 En este informe se detallarán los pasos a seguir para llevar a cabo la configuración e instalación de la 
 máquina virtual de la asignatura.
