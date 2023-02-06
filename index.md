@@ -9,9 +9,10 @@ title: "Informe de la práctica 1: configuración de la máquina virtual del Iaa
   * [Modificación del nombre del host, la MV y actualización de la misma](#modificación-del-nombre-de-la-mv-y-actualización-de-la-misma)
 
 [Modificación del nombre de host en máquina local](#modificación-del-nombre-de-host-en-máquina-local)
+
+[Creación de clave pública-privada](#creación-de-clave-pública-privada)
  * [Máquina local](#máquina-local)
  * [Máquina virtual](#máquina-virtual)
-[Creación de clave pública-privada](#creación-de-clave-pública-privada)
 
 # Introducción
 En este informe se detallarán los pasos a seguir para llevar a cabo la configuración e instalación de la 
