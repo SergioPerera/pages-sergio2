@@ -81,6 +81,7 @@ Para guardar el archivo pulsamos la tecla ```esc```, escribimos ```:wq``` y puls
 ## Modificación del nombre de host
 Para ver el nombre actual de host, podemos mirar el prompt ```usuario@ubuntu:~$``` y ver que tenemos el nombre 
 de host ```ubuntu```
+
 O bien con el comando:
 * 
 ```
