@@ -93,10 +93,13 @@ Host 10.6.131.207
 Simplemente tenemos que cambiar donde pone ``` Host 10.6.131.207``` por ``` Host DSI ``` y lo guardamos
 Si lo queremos hacer vía terminal, en mi caso PowerShell, tendríamos que seguir estos pasos:
 * Pulsamos ``` Win + R ``` y nos saldrá lo siguiente
+
 ![winr](/media/images/winr.bmp)
-Pulsamos enter y se nos abrirá esta pestaña
+* Pulsamos enter y se nos abrirá esta pestaña
+
 ![pestawinr](/media/images/pestawindir.bmp)
-Ahora editamos el archivo ``` hosts``` y ponemos al final del todo la IP de la máquina y su alias ``` 10.6.131.207 DSI``` 
+
+* Ahora editamos el archivo ``` hosts``` y ponemos al final del todo la IP de la máquina y su alias ``` 10.6.131.207 DSI``` 
 y lo guardamos
 Cuando queramos hacer SSH por terminal, hacemos:
 ```
