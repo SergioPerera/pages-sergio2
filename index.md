@@ -173,3 +173,6 @@ Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.4.0-137-generic x86_64)
 usuario@dsi2223:~$
 ```
 
+Con esto ya tendríamos la parte de la **máquina local** configurada. A continuación
+pasamos a configurar la parte de la **máquina virtual**
+
