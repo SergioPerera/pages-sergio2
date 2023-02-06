@@ -18,6 +18,7 @@ title: "Informe de la práctica 1: configuración de la máquina virtual del Iaa
  * [Instalación y configuración de git](#instalación-y-configuración-de-git)
       * [Instalación](#instalación)
       * [Configuración](#configuración)
+      * [Configuración del prompt de git](#configuración-del-prompt-de-git)
 
 # Introducción
 En este informe se detallarán los pasos a seguir para llevar a cabo la configuración e instalación de la 
