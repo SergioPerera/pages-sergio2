@@ -83,6 +83,7 @@ Para ver el nombre actual de host, podemos mirar el prompt ```usuario@ubuntu:~$`
 de host ```ubuntu```
 
 O bien con el comando:
+
 * 
 ```
 usuario@ubuntu:~$ cat /etc/hosts
