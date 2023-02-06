@@ -60,4 +60,19 @@ ubuntu
 ```
 
 Con este comando comprobamos dentro del archivo ```hostname``` que el nombre es *ubuntu* como mencionamos 
-anteriormente. Acto seguido hacemos uso del comando ```sudo vi /etc/hostname``` para editar el fichero 
+anteriormente. Acto seguido hacemos uso del comando ```sudo vi /etc/hostname``` para editar el fichero. Al 
+hacerlo nos debería aparecer lo siguiente:
+```
+ubuntu
+~                                                                                                                                                                                                        
+~                                
+                                                                                                                                                                                       1,5           All
+```
+Simplemente le damos a la tecla i y pasamos a modo insertar, una vez cambié el nombre por ```dsi2223```. De 
+esta manera el archivo queda de la siguiente manera:
+```
+dsi2223
+~                                                                                                                                                                                                        
+~                                                                                                                                                                                         
+"/etc/hostname" 1L, 8C                                                                                                                                                                 1,7           All
+```
