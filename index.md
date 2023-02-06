@@ -259,8 +259,10 @@ if ! shopt -oq posix; then
   fi
 fi
 source ~/.git-prompt.sh
-PS1='\[\033]0;\u@\h:\w\007\]\[\033[0;34m\][\[\033[0;31m\]\w\[\033[0;32m\]($(git branch 2>/dev/null | sed -n "s/\* \(.*\)/\1/p"))\[\033[0;34m\]]$'
+PS1='\[\033]0;\u@\h:\w\007\]\[\033[0;34m\][\[\033[0;31m\]\w\[\033[0;32m\]($(git branch 2>/dev/null | sed -n "s/\* \(.*\)/\1/p"))\[\033[0;34m\]]$\[\033[0;0m\] '
 ```
 Al final del archivo colocamos las 2 últimas líneas que aparecen encima, acto seguido hacemos ```exec bash -l```
-y ya nos debería aparecer el nuevo prompt ```[~()]$```
+y ya nos debería aparecer el nuevo prompt ```[~()]$ ```. He hecho una pequeña modificación al final de ``` PS1 ```
+poniendo ``` [\033[0;0m\] '``` al final para poder escribir en la terminal con un espacio de separación y en 
+color blanco
 
