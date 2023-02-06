@@ -104,7 +104,18 @@ y lo guardamos
 
 * Cuando queramos hacer SSH por terminal, hacemos:
 ```
-PS C:\Users\sergi> ssh usuario@DSI                                                                                      usuario@10.6.131.207's password:                                                                                        Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.4.0-137-generic x86_64)                                                                                                                                                                               * Documentation:  https://help.ubuntu.com                                                                               * Management:     https://landscape.canonical.com                                                                       * Support:        https://ubuntu.com/advantage                                                                                                                                                                                                   System information as of Mon Feb  6 10:37:21 UTC 2023                                                                                                                                                                                           System load:  0.08               Processes:             143                                                             Usage of /:   36.4% of 19.52GB   Users logged in:       0                                                               Memory usage: 6%                 IPv4 address for ens3: 10.6.131.207                                                    Swap usage:   0%                                                                                                                                                                                                                               * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s                                              just raised the bar for easy, resilient and secure K8s cluster deployment.                                                                                                                                                                      https://ubuntu.com/engage/secure-kubernetes-at-the-edge                                                                                                                                                                                      84 updates can be applied immediately.                                                                                  To see these additional updates run: apt list --upgradable                                                                                                                                                                                      New release '22.04.1 LTS' available.                                                                                    Run 'do-release-upgrade' to upgrade to it.                                                                                                                                                                                                                                                                                                                              Last login: Mon Feb  6 10:31:07 2023 from 10.151.29.214                                                                 usuario@dsi2223:~$        
+PS C:\Users\sergi> ssh usuario@DSI
+usuario@10.6.131.207's password:
+Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.4.0-137-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  System information as of Mon Feb  6 10:37:21 UTC 2023  
+  .
+  .
+  .
+  .
+usuario@dsi2223:~$
 ```
 
 
