@@ -240,5 +240,11 @@ user.email=alu0101394503@ull.edu.es
 usuario@dsi2223:~$ 
 ```
 ## Configuración del prompt
-
+Para ello vamos a descargar un repositorio de github y luego modificar el archivo ```.bashrc```. Tenemos que hacer lo siguiente:
+```
+usuario@dsi2223:~$ wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
+usuario@dsi2223:~$ mv git-prompt.sh .git-prompt.sh
+usuario@dsi2223:~$ vi .bashrc
+usuario@dsi2223:~$ tail .bashrc
+```
 
