@@ -91,7 +91,7 @@ Host 10.6.131.207
   User usuario
 ```
 Simplemente tenemos que cambiar donde pone ``` Host 10.6.131.207``` por ``` Host DSI ``` y lo guardamos
+Si lo queremos hacer vía terminal, en mi caso PowerShell, tendríamos que seguir estos pasos:
 
-En caso de que queramos hacerlo mediante la terminal, en mi caso la de windows tenemos que seguir los siguientes pasos:
 
 
